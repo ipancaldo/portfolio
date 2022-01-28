@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancaldev Portfolio Website</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/12496d2312.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto+Mono:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/favicon.jpg" alt="Pic of favicon">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Ignacio Pancaldo</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Fullstack developer</p>
+        <img src="img/Ignacio Pancaldo.jpg" alt="A picture of Ignacio Pancaldo smiling" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quaerat ipsam voluptatibus, est eos
+                    saepe facilis eaque numquam possimus quos inventore atque cupiditate velit enim laudantium
+                    voluptatem tenetur commodi accusantium!</p>
+            </div> <!-- / service-->
+            <div class="service">
+                <h3>.NET Core</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, cupiditate earum. Omnis, autem?
+                    Omnis, dicta mollitia? Obcaecati reprehenderit voluptates, velit esse consequatur dignissimos
+                    nostrum neque cupiditate harum nisi repudiandae officia.</p>
+            </div> <!-- / service-->
+            <div class="service">
+                <h3>Angular</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore accusantium optio? Nam, rerum
+                    delenitiLorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore accusantium optio? Nam,
+                    rerum
+                    deleniti!</p>
+            </div> <!-- / service-->
+        </div> <!-- / services-->
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">.NET Core + Angular</p>
+
+        <div class="about-me__body">
+            <p>I am a fullstack .NET Core Developer,
+                student of Computer Engeering and a self-taught programmer
+                that is always seeking the ways to progress as a
+                developer. Very passionate for the work and acute
+                attention to details.</p>
+        </div>
+        <img src="img/Family.jpg" alt="An image of the family of Ignacio" class="about-me__img">
+    </section>
+
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work.</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Sistema-de-tickets.png" alt="An image of the C++ project of Ignacio"
+                    class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Sistema-de-tickets.png" alt="An image of the C++ project of Ignacio"
+                    class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Sistema-de-tickets.png" alt="An image of the C++ project of Ignacio"
+                    class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Sistema-de-tickets.png" alt="An image of the C++ project of Ignacio"
+                    class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/Sistema-de-tickets.png" alt="An image of the C++ project of Ignacio"
+                    class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:hello@ipancaldo.net" class="footer__link">hello@ipancaldo.net</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/ipancaldo">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/ipancaldo/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ignacio-pancaldo/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
