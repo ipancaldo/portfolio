@@ -221,7 +221,6 @@ header{
 
 .dark-mode-action .nav{
     background: var(--clr-light);
-    /* color: var(--clr-dark); */
 }
 
 .dark-mode-action .nav__link{
@@ -250,6 +249,10 @@ header{
 
 .dark-mode-action .section__subtitle{
     color: var(--clr-light);
+}
+
+.dark-mode-action .section__title--services::after{
+    background: var(--clr-dark);
 }
 
 .dark-mode-action .my-work{
