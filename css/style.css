@@ -198,7 +198,7 @@ header{
     z-index: 1000;
 }
 
-.nav-night-mode{
+.dark-mode{
     padding: .5em;
     background: transparent;
     border: 0;
@@ -207,6 +207,58 @@ header{
     right: 5em;
     top: 0.6em;
     z-index: 1000;
+}
+
+.dark-mode-action .dark-mode{
+    color: var(--clr-dark);
+}
+
+.dark-mode-action{
+    --clr-light: #303030;
+    --clr-dark: #fff;
+    --clr-grey: rgb(43, 42, 42);
+}
+
+.dark-mode-action .nav{
+    background: var(--clr-light);
+    /* color: var(--clr-dark); */
+}
+
+.dark-mode-action .nav__link{
+    color: var(--clr-dark)
+}
+
+.dark-mode-action .nav__link:hover{
+    color: var(--clr-accent);
+}
+
+.dark-mode-action .services{
+    color: var(--clr-dark);
+}
+
+.dark-mode-action .nav__list{
+    color:var(--clr-light);
+}
+
+.dark-mode-action .my-services{
+    background-color: var(--clr-light);
+}
+
+.dark-mode-action .btn{
+    color: var(--clr-light)
+}
+
+.dark-mode-action .section__subtitle{
+    color: var(--clr-light);
+}
+
+.dark-mode-action .my-work{
+    background-color: var(--clr-grey);
+    color: var(--clr-dark)
+}
+
+.dark-mode-action .section__subtitle--work{
+    color: var(--clr-accent);
 }
 
 .nav-open .nav{
