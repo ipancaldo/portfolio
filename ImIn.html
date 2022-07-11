@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipancaldo ></title>
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/12496d2312.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto+Mono:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="nav__link"><img src="img/logornw.png" alt="Pic of favicon"></a>
+        </div>
+        <button class="dark-mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Im <strong>in!</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Angular</p>
+        <img src="img/ImIn/Header.JPG" alt="" class="intro__img">
+    </section>
+
+    <!-- About the project -->
+    <section class="portfolio-item-individual">
+        <h2 class="section__title section__title--about">About the project</h2>
+        <div class="portfolio-item-individual section_paragraph">
+            <p>This is my first and most complex project up to that moment done purely in C++.
+                <br>
+                It was presented as the "OOP" final project in Computer Engeneering and it got a 10/10 final score.
+                <br>
+                Later, it was used by my family for a small business.
+            </p>
+            <img src="img/ImIn/Im in app.JPG"
+                alt="Main window project Sistema de tickets with some products in spanish in it"
+                class="portfolio__img--bucket">
+            <p>It is a CRUD application for selling products in which you can use your code bar scanner to scan the
+                product.</p>
+            <p>As a CRUD, you can create, read, update and delete them.</p>
+            <p>Also, you can administrate your client list, order them and search a specific one.</p>
+            <p>When you start making the list of products, with the first scanned (or passed by code) product, it will
+                tell you the ticket number it will have on top.</p>
+            <p>When you finish making the list of products, you can either save it (Guardar) or print it (Imprimir).</p>
+
+            <p><span class="bullets"></span>- The first one, will save the list in a ticket history.</p>
+
+            <p><span class="bullets"></span>- The second one, will do the same as the previous point plus create a .txt
+                file with all the details in \debug.w32.</p>
+            </p>
+        </div>
+    </section>
+
+    <!-- How I done it -->
+    <section class="portfolio-item-individual portfolio-item-individual--how">
+        <h2 class="section__title section__title--how">How I done it</h2>
+        <div class="section_paragraph">
+            <p>I first started thinking about a handful idea to start a project</p>
+            <p>As I come from a merchant family, I thougt that a selling system would be a good idea.</p>
+            <img src="img/ImIn/Database.png" alt="Resume of working days" class="portfolio__img--bucket">
+            <p>I started creating the idea writing it in some documents on my PC.</p>
+            <p>At the same time, created an OpenOffice Calc (like Excel but Open Source) to write down all the things I
+                was doing everyday I worked in my project. Like the date, the quantity of time spended and a brief
+                resume. It resulted overly handy.</p>
+            <p>In the beginning, I started to code the Product classes. Then, proceeded to be able to Add, Delete and
+                Save them. And then continuing adding more features.</p>
+        </div>
+    </section>
+
+    <!-- Problems I had -->
+    <section class="portfolio-item-individual">
+        <h2 class="section__title section__title--about">Problems I had</h2>
+        <div class="portfolio-item-individual section_paragraph">
+            <p>As I said, this was my first big project. And with it, I had many problems that I will try to summarise
+                and explain how I dealt with them.</p>
+            <img src="img/ImIn/HoppersIn.JPG"
+                alt="Main window project Sistema de tickets with some products in spanish in it"
+                class="portfolio__img--bucket">
+            <p>Graphical interface:</p>
+            <p>Deal with bugs:</p>
+            <p>Store data: at that time, I didn't know how to store data in SQL... binary... notepad</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:hello@ipancaldo.net" class="footer__link">hello@ipancaldo.net</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/ipancaldo">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/ipancaldo/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ignacio-pancaldo/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
