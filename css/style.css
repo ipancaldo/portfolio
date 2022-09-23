@@ -561,6 +561,11 @@ header{
     margin-right: auto;
 }
 
+.section__subtitle--repository{
+    text-align: center;
+    text-decoration: none;
+}
+
 .section_paragraph{
     text-align: justify;
 }
