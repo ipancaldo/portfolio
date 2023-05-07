@@ -395,12 +395,15 @@ header{
 }
 
 .services{
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 4em;
 }
 
 .service{
     max-width: 600px;
     margin: 0 auto;
+    flex: 1;
 }
 
 @media (min-width: 800px){
